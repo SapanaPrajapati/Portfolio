@@ -12,12 +12,12 @@ Hi, I'm Sapana Prajapati, a Data Analyst passionate about transforming raw data 
 - Python
 - Microsoft Excel
 - Power BI
-- Tableau
 - Data Cleaning
 - Data Visualization
 - Exploratory Data Analysis (EDA)
 - Statistics
 - Business Analytics
+- Prompt Engineering 
 
 ## 📂 Featured Projects
 
@@ -31,7 +31,7 @@ Hi, I'm Sapana Prajapati, a Data Analyst passionate about transforming raw data 
 - Performed data cleaning, feature engineering, and visualization.
 - Provided actionable recommendations for customer retention.
 
-### 3. E-Commerce Data Analysis
+### 3. E-Commerce Sales Analysis
 - Examined customer purchasing trends and product performance.
 - Created SQL queries for business reporting.
 - Generated insights to improve sales and inventory planning.
@@ -47,7 +47,7 @@ Hi, I'm Sapana Prajapati, a Data Analyst passionate about transforming raw data 
 | Category | Tools |
 |-----------|--------|
 | Programming | Python, SQL |
-| Visualization | Power BI, Tableau |
+| Visualization | Power BI |
 | Spreadsheet | Microsoft Excel |
 | Database | MySQL |
 | Version Control | Git, GitHub |
