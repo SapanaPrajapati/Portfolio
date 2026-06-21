@@ -1039,6 +1039,39 @@ section > .container > h2 {
   }
 }
 
+.proj-github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 18px;
+    padding: 8px 16px;
+    background: rgba(45, 212, 191, 0.08);
+    border: 1px solid rgba(45, 212, 191, 0.35);
+    border-radius: 6px;
+    color: #2dd4bf;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.proj-github-btn:hover {
+    background: rgba(45, 212, 191, 0.16);
+    border-color: #2dd4bf;
+    transform: translateY(-1px);
+}
+
+.proj-github-btn:active {
+    transform: translateY(0);
+}
+
+.proj-github-btn .gh-icon {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
 @media (max-width: 560px) {
   .skills-grid,
   .edu-grid,
