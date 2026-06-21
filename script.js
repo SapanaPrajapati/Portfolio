@@ -191,6 +191,15 @@ function initProjectAccordion() {
                     openDetail.style.maxHeight = null;
                 }
             });
+            document.querySelectorAll('.proj-github-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const repoUrl = btn.dataset.repo;
+                    if (repoUrl) {
+                        window.open(repoUrl, '_blank', 'noopener,noreferrer');
+                    }
+                });
+            });
 
             if (isOpen) {
                 item.classList.remove("is-open");
