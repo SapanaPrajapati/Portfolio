@@ -36,10 +36,11 @@ Hi, I'm Sapana Prajapati, a Data Analyst passionate about transforming raw data 
 - Created SQL queries for business reporting.
 - Generated insights to improve sales and inventory planning.
 
-### 4. HR Analytics Dashboard
-- Built dashboards to track employee performance and attrition.
-- Visualized workforce metrics using Power BI.
-- Assisted in data-driven HR decision-making.
+### 4. Student Performance Analysis
+- Analyzed 1,000+ student records to evaluate factors affecting academic performance, including parental education, test preparation and gender.
+- Ran statistical and correlation studies across reading, writing and mathematics scores.
+- Built heatmaps, histograms, box plots and scatter plots to communicate key findings.
+- Segmented at-risk students and provided actionable recommendations to improve outcomes.
 
 ## 🛠️ Tools & Technologies
 
