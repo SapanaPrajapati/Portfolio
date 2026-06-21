@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapana Prajapati — Data Analyst</title>
+    <meta name="description"
+        content="Sapana Prajapati — Data Analyst portfolio. SQL, Python, Power BI and Excel for data cleaning, analysis and dashboards.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#home" class="nav-logo"> Sapana Prajapati</span></a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#about" data-nav>About</a>
+                <a href="#skills" data-nav>Skills</a>
+                <a href="#experience" data-nav>Experience</a>
+                <a href="#projects" data-nav>Projects</a>
+                <a href="#education" data-nav>Education</a>
+                <a href="#contact" data-nav>Contact</a>
+            </nav>
+            <a class="btn btn-ghost nav-resume"
+                href="https://drive.google.com/file/d/1qhwrU5kTcTGxtyLB1nfq6en2JuVJ0StQ/view?usp=drive_link"
+                target="_blank" rel="noopener">Resume ↗</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"
+                aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ===================== HERO ===================== -->
+        <section class="hero" id="home">
+            <div class="hero-bg-grid" aria-hidden="true"></div>
+            <div class="container hero-inner">
+
+                <div class="terminal">
+                    <div class="terminal-titlebar">
+                        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+                        <span class="terminal-path">sapana@analytics:~</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p class="terminal-line">
+                            <span class="prompt">$</span><span id="typedQuery"></span><span class="cursor"
+                                id="typeCursor">▍</span>
+                        </p>
+                        <div class="terminal-result" id="terminalResult">
+                            <table class="result-table">
+                                <tr>
+                                    <td class="key">Name</td>
+                                    <td class="val">Sapana Prajapati</td>
+                                </tr>
+                                <tr>
+                                    <td class="key">Role</td>
+                                    <td class="val">Junior Data Analyst </td>
+                                </tr>
+                                <tr>
+                                    <td class="key">Stack</td>
+                                    <td class="val">SQL · Python · Power BI · Excel</td>
+                                </tr>
+                                <tr>
+                                    <td class="key">status</td>
+                                    <td class="val status-ok">● Open to opportunities</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-copy">
+                    <h1>Turning raw data into <span class="accent">decisions</span> you can act on.</h1>
+                    <p>I'm a data analyst who cleans messy datasets, builds Power BI dashboards, and writes the SQL that
+                        gets the right number in front of the right person — on time.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View projects</a>
+                        <a href="https://drive.google.com/file/d/1qhwrU5kTcTGxtyLB1nfq6en2JuVJ0StQ/view?usp=drive_link"
+                            target="_blank" rel="noopener" class="btn btn-outline">Download Resume</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===================== ABOUT ===================== -->
+        <section class="about" id="about">
+            <div class="container">
+                <p class="eyebrow reveal">// 01 — about.md</p>
+                <h2 class="reveal">About</h2>
+                <div class="about-grid">
+                    <p class="about-text reveal">
+                        Detail-oriented and analytical graduate with hands-on experience in data analysis, visualization
+                        and reporting using SQL, Python, Power BI and Excel. I've worked through real analytics projects
+                        and an internship focused on pulling insight out of messy data and packaging it into dashboards
+                        people actually use — from telecom churn models to sales KPI trackers. Currently finishing a
+                        B.Sc in Information Technology and looking for my first full-time seat as a Data Analyst.
+                    </p>
+                    <div class="kpi-grid reveal">
+                        <div class="kpi-card">
+                            <span class="kpi-number" data-count="3000" data-suffix="+">0</span>
+                            <span class="kpi-label">customer records analyzed</span>
+                        </div>
+                        <div class="kpi-card">
+                            <span class="kpi-number" data-count="85" data-suffix="%">0</span>
+                            <span class="kpi-label">churn model accuracy</span>
+                        </div>
+                        <div class="kpi-card">
+                            <span class="kpi-number" data-count="115" data-suffix="+">0</span>
+                            <span class="kpi-label">datasets structured</span>
+                        </div>
+                        <div class="kpi-card">
+                            <span class="kpi-number" data-count="9.3" data-decimal="1" data-suffix="/10">0</span>
+                            <span class="kpi-label">CGPA, B.Sc Information Technology</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SKILLS ===================== -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <p class="eyebrow reveal">// 02 — skills.json</p>
+                <h2 class="reveal">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <h3>Programming</h3>
+                        <div class="tags"><span>Python</span><span>NumPy</span><span>Pandas</span></div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3>Analysis &amp; Visualisation</h3>
+                        <div class="tags"><span>Power
+                                BI</span><span>DAX</span><span>Matplotlib</span><span>Seaborn</span><span>Excel</span>
+                        </div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3>Databases</h3>
+                        <div class="tags"><span>SQL</span><span>MySQL</span><span>SQL Server</span></div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3>Data Techniques</h3>
+                        <div class="tags"><span>Data Cleaning</span><span>EDA</span><span>ETL</span><span>Data
+                                Integration</span></div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3>Analytics</h3>
+                        <div class="tags"><span>Sales Analysis</span><span>Statistical Analysis</span><span>Performance
+                                Analysis</span><span>Prompt Engineering</span></div>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h3>Tools &amp; Platforms</h3>
+                        <div class="tags"><span>Google Colab</span><span>Jupyter
+                                Notebook</span><span>Git</span><span>GitHub</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== EXPERIENCE ===================== -->
+        <section class="experience" id="experience">
+            <div class="container">
+                <p class="eyebrow reveal">// 03 — experience.log</p>
+                <h2 class="reveal">Experience</h2>
+                <div class="exp-card reveal">
+                    <div class="exp-head">
+                        <div>
+                            <h3>Data Analyst Intern</h3>
+                            <p class="exp-org">Pluto Academy</p>
+                        </div>
+                        <span class="exp-date">Jun 2026</span>
+                    </div>
+                    <ul class="exp-list">
+                        <li>Performed data cleaning, transformation and exploratory data analysis (EDA) using Python,
+                            SQL and Excel on real-world e-commerce and student performance datasets.</li>
+                        <li>Developed interactive Power BI dashboards and data visualizations to track KPIs, analyze
+                            trends and support data-driven decision-making.</li>
+                        <li>Used SQL queries and Python (Pandas, Matplotlib) for data extraction, analysis, reporting
+                            and business insight generation.</li>
+                        <li>Delivered actionable recommendations through analytical reports by identifying sales trends,
+                            customer behaviour patterns and at-risk student segments.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== PROJECTS ===================== -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <p class="eyebrow reveal">// 04 — SELECT * FROM projects;</p>
+                <h2 class="reveal">Projects</h2>
+                <p class="reveal"
+                    style="color:var(--text-mute); font-family:var(--font-mono); font-size:0.82rem; margin-bottom:18px;">
+                    click a row to expand →</p>
+
+                <div class="proj-table reveal" id="projTable">
+                    <div class="proj-row-head">
+                        <span>id</span><span>project</span><span>stack</span><span>impact</span><span></span>
+                    </div>
+
+                    <!-- Project 01 -->
+                    <div class="proj-item">
+                        <button class="proj-row" aria-expanded="false" aria-controls="proj1">
+                            <span class="proj-id">01</span>
+                            <span class="proj-name">Customer Behaviour Analysis</span>
+                            <span class="proj-stack">Python · SQL · Excel · Power BI</span>
+                            <span class="proj-impact">85% churn accuracy</span>
+                            <span class="proj-chevron">⌄</span>
+                        </button>
+                        <div class="proj-detail" id="proj1">
+                            <div class="proj-detail-inner">
+                                <ul>
+                                    <li>Analyzed 3,000+ telecom customer records to identify behaviour patterns, churn
+                                        drivers and retention opportunities.</li>
+                                    <li>Cleaned, preprocessed and engineered features in Python to improve data quality
+                                        and analytical accuracy.</li>
+                                    <li>Built Logistic Regression and Random Forest models, reaching ~85% prediction
+                                        accuracy.</li>
+                                    <li>Generated dashboards and reports to support customer retention strategy and
+                                        decision-making.</li>
+                                </ul>
+                                <div class="proj-chart">
+                                    <svg class="donut" viewBox="0 0 120 120" role="img"
+                                        aria-label="85 percent prediction accuracy">
+                                        <circle class="donut-bg" cx="60" cy="60" r="50"></circle>
+                                        <circle class="donut-value" cx="60" cy="60" r="50"></circle>
+                                        <text x="60" y="67" text-anchor="middle" class="donut-text">85%</text>
+                                    </svg>
+                                    <span class="proj-chart-label">prediction accuracy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 02 -->
+                    <div class="proj-item">
+                        <button class="proj-row" aria-expanded="false" aria-controls="proj2">
+                            <span class="proj-id">02</span>
+                            <span class="proj-name">Student Performance Analysis</span>
+                            <span class="proj-stack">Python · Pandas · EDA</span>
+                            <span class="proj-impact">1,000+ records</span>
+                            <span class="proj-chevron">⌄</span>
+                        </button>
+                        <div class="proj-detail" id="proj2">
+                            <div class="proj-detail-inner">
+                                <ul>
+                                    <li>Analyzed 1,000+ student records to evaluate factors affecting academic
+                                        performance, including parental education, test preparation and gender.</li>
+                                    <li>Ran statistical and correlation studies across reading, writing and mathematics
+                                        scores.</li>
+                                    <li>Built heatmaps, histograms, box plots and scatter plots to communicate key
+                                        findings.</li>
+                                    <li>Segmented at-risk students and provided actionable recommendations to improve
+                                        outcomes.</li>
+                                </ul>
+                                <div class="proj-chart">
+                                    <svg class="bar-chart" viewBox="0 0 160 90" role="img"
+                                        aria-label="Correlation strength across performance factors">
+                                        <rect class="bar" x="10" y="40" width="18" height="50"></rect>
+                                        <rect class="bar bar-accent" x="38" y="20" width="18" height="70"></rect>
+                                        <rect class="bar" x="66" y="55" width="18" height="35"></rect>
+                                        <rect class="bar bar-accent" x="94" y="10" width="18" height="80"></rect>
+                                        <rect class="bar" x="122" y="45" width="18" height="45"></rect>
+                                    </svg>
+                                    <span class="proj-chart-label">score correlation strength</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 03 -->
+                    <div class="proj-item">
+                        <button class="proj-row" aria-expanded="false" aria-controls="proj3">
+                            <span class="proj-id">03</span>
+                            <span class="proj-name">Sales Performance Dashboard</span>
+                            <span class="proj-stack">Python · SQL · Power BI · Excel</span>
+                            <span class="proj-impact">Multi-source KPI dashboard</span>
+                            <span class="proj-chevron">⌄</span>
+                        </button>
+                        <div class="proj-detail" id="proj3">
+                            <div class="proj-detail-inner">
+                                <ul>
+                                    <li>Collected and cleaned sales data from multiple CSV files using Pandas, handling
+                                        missing values, duplicates and inconsistencies.</li>
+                                    <li>Ran EDA to identify top-performing products, regional sales trends and monthly
+                                        revenue patterns.</li>
+                                    <li>Built an interactive Power BI dashboard with KPIs, slicers and drill-down
+                                        functionality.</li>
+                                    <li>Wrote SQL queries for extraction, aggregation and month-over-month sales
+                                        analysis.</li>
+                                </ul>
+                                <div class="proj-chart">
+                                    <svg class="line-chart" viewBox="0 0 160 90" role="img"
+                                        aria-label="Monthly revenue trend, rising">
+                                        <polyline class="spark-line"
+                                            points="10,70 34,55 58,60 82,35 106,40 130,15 150,20"></polyline>
+                                        <circle class="spark-dot" cx="150" cy="20" r="3.5"></circle>
+                                    </svg>
+                                    <span class="proj-chart-label">monthly revenue trend</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== EDUCATION ===================== -->
+        <section class="education" id="education">
+            <div class="container">
+                <p class="eyebrow reveal">// 05 — education.yaml</p>
+                <h2 class="reveal">Education &amp; Certifications</h2>
+                <div class="edu-grid">
+                    <div class="edu-card reveal">
+                        <h3>B.Sc — Information Technology</h3>
+                        <p class="edu-org">Thakur Ramnarayan College of Arts and Commerce, India</p>
+                        <p class="edu-date">Jun 2023 – May 2026 · CGPA 9.3/10</p>
+                    </div>
+                    <div class="edu-card reveal">
+                        <h3>Data Analytics Job Simulation</h3>
+                        <p class="edu-org">Deloitte</p>
+                        <p class="edu-date">May 2026 – Jun 2026</p>
+                    </div>
+                    <div class="edu-card reveal">
+                        <h3>SQL Masterclass From Scratch </h3>
+                        <p class="edu-org">Udemy</p>
+                        <p class="edu-date">Apr 2026 – May 2026</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CONTACT ===================== -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <p class="eyebrow reveal">// 06 — contact.sh</p>
+                <h2 class="reveal">Let's talk data</h2>
+                <p class="contact-intro reveal">Open to data analyst roles and internship-to-full-time opportunities.
+                    Email is the fastest way to reach me.</p>
+                <div class="contact-grid reveal">
+                    <button class="contact-card" id="copyEmail" type="button">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">sapana.prajapati2505@gmail.com</span>
+                        <span class="contact-copy-hint" id="copyHint">Click to copy</span>
+                    </button>
+                    <a class="contact-card" href="tel:+919137186202">
+                        <span class="contact-label">Phone</span>
+                        <span class="contact-value">+91 91371 86202</span>
+                    </a>
+                    <a class="contact-card" href="https://www.linkedin.com/in/sapana-prajapati-68b71a28b/"
+                        target="_blank" rel="noopener">
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">/in/sapana-prajapati</span>
+                    </a>
+                    <a class="contact-card" href="https://github.com/SapanaPrajapati" target="_blank" rel="noopener">
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-value">/SapanaPrajapati</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <span>© <span id="year"></span> Sapana Prajapati</span>
+            <span class="footer-note">SELECT * FROM portfolio WHERE status = 'live';</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
