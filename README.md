@@ -1,4 +1,4 @@
-# 📊 Data Analyst Portfolio
+# 📊 Sapana Prajapati - Data Analyst 
 
 Welcome to my Data Analyst Portfolio! This portfolio showcases my projects, skills, and experience in data analytics, business intelligence, and data visualization.
 
@@ -17,7 +17,8 @@ Hi, I'm Sapana Prajapati, a Data Analyst passionate about transforming raw data 
 - Exploratory Data Analysis (EDA)
 - Statistics
 - Business Analytics
-- Prompt Engineering 
+- Prompt Engineering
+- Gen AI 
 
 ## 📂 Featured Projects
 
